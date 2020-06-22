@@ -1,0 +1,28 @@
+
+mark {
+  background-color: teal;
+  color: whitesmoke;
+}
+
+body {
+    /* background-image: image(.\assets\gtpfbg.png); */
+    background-image: url('gtpfbg.png');
+
+  }
+
+ h1 {
+   font-weight: bold;
+   color: #6fc7b8;
+   text-align: left;
+ }
+ h2 {
+  font-weight: bold;
+  color: #6fc7b8;
+  text-align: left;
+}
+img{
+  align-content: flex-start;
+}
+ .container{
+   background-color: white;
+ }

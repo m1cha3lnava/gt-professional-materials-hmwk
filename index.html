@@ -1,11 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Professional Materials</title>
-</head>
-<body>
-    
-</body>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/style.css">
+      <!-- Added to ensure scaling on all devices -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+    <header>
+      <!-- Bootstrap gives us a template for a navbar that I modified -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a
+          class="navbar-brand mb-0 h1"
+          href="https://m1cha3lnava.github.io/css-bootstraphmwk/"
+          ><mark>Michael Nava</mark></a
+        >
+        <!-- This turns into the hamburger menu that lets us navigate when the horizontal size decreases -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >About <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- This is the div that adds the margins for the page. -->
+    <main class="container mt-5">
+      <!-- This row makes everything in the same space -->
+      <div class="row">
+        <!-- We only need one column for the heading. -->
+        <div class="col">          
+          <h2>About Me</h2>
+          <!-- Added for style -->
+          <hr>
+        </div>
+      </div>
+      <!-- This row contains the profile pic and the text of the about me -->
+      <div class="row">
+        <div class="col">
+          <img
+            src="./assets/Profilepicture.jpg"
+            alt="Profile picture" class="float-left"/>
+          <p class="text center">
+            My name is Michael Nava. I was born in California and raised in
+            North Alabama where I graduated from Austin High School. I was
+            active in JROTC all 4 years and I flayed varsity soccer my freshman
+            year then ran track and cross country my sophomore, junior, and
+            senior years. I attended Unite States Military Academy West Point
+            for my Freshman year then I attended Calhoun Community College and
+            finally the University of Alabama in Huntsville. I pursued the
+            fields of Computer Information Systems, Computer Science, and
+            Industrial Engineering. My last job was a Controlman at General
+            Electric Appliances where I was tasked with minimizing downtime,
+            performed level 1 maintenance and preventative maintenance for
+            several departments. I took the chance to enroll in the Georgia Tech
+            coding bootcamp to become employer competitive in the tech industry.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <script
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"
+      ></script>
+    </footer>
+  </body>
 </html>
