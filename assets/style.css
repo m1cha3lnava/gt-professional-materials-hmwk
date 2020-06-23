@@ -1,28 +1,57 @@
-
 mark {
-  background-color: teal;
-  color: whitesmoke;
+  background-color: ghostwhite;
+
 }
 
 body {
-    /* background-image: image(.\assets\gtpfbg.png); */
-    background-image: url('gtpfbg.png');
+  /* background-image: image(.\assets\gtpfbg.png); */
+  background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+    linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+    linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+    linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+    linear-gradient(
+      #1d1d1d 25%,
+      #1a1a1a 25%,
+      #1a1a1a 50%,
+      transparent 50%,
+      transparent 75%,
+      #242424 75%,
+      #242424
+    );
+  background-color: #131313;
+  background-size: 20px 20px;
+}
 
-  }
-
- h1 {
-   font-weight: bold;
-   color: #6fc7b8;
-   text-align: left;
- }
- h2 {
+h1 {
   font-weight: bold;
-  color: #6fc7b8;
   text-align: left;
 }
-img{
+h3 {
+  font-weight: bold;
+  text-align: center;
+  background-color: gray;
+  color: white;
+}
+img {
   align-content: flex-start;
 }
- .container{
-   background-color: white;
- }
+.jumbotron{
+  background-color: #ffffff70;
+}
+.navbar{
+  background-color: #ffffff70;
+}
+.container {
+  background-color: white;
+}
+.portfolioLink {
+  
+}
+#profileText {
+  background-color: whitesmoke;
+  padding: 20px
+}
+#profileSection {
+  background-color:darkgrey;
+}

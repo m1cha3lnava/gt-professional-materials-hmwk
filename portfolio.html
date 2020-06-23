@@ -11,12 +11,14 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./assets/style.css">
-      <!-- Added to ensure scaling on all devices -->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css" />
+    <!-- Added to ensure scaling on all devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand mb-0 h1" href="https://m1cha3lnava.github.io/css-bootstraphmwk/"><mark>Michael Nava</mark></a>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand mb-0 h1" href="https://github.com/m1cha3lnava/"
+      ><mark>Michael Nava</mark></a
+    >
     <button
       class="navbar-toggler"
       type="button"
@@ -32,41 +34,89 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">About</a>
+          <a class="nav-link" href="./index.html">About</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span>
+          <a class="nav-link" href="./portfolio.html"
+            >Portfolio<span class="sr-only">(current)</span></a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link" href="./contact.html">Contact </a>
         </li>
       </ul>
     </div>
   </nav>
 
-  
   <body>
     <!-- Additional classes had to be added to container classes to get the margins right -->
     <main class="container border mt-5">
       <div class="row">
         <div class="col">
-         <h1>Portfolio</h1>
-         <hr>
+          <h1>Portfolio</h1>
         </div>
-        <!-- Originally I had each set of images in its own row but it is more efficient to have them all in this row and modify the style -->
-        <div class="row" style="position: relative;">
-          <div class="col" class="float">
-          <img class= m-3 src="./assets/placeholder.png" alt="Portfolio" >
-          <img class= m-3 src="./assets/placeholder.png" alt="Portfolio" >
-          <img class= m-3 src="./assets/placeholder.png" alt="Portfolio" >
-          <img class= m-3 src="./assets/placeholder.png" alt="Portfolio" >
-          <img class= m-3 src="./assets/placeholder.png" alt="Portfolio" >
+      </div>
+      <div class="row" style="position: relative;" id="profileSection">
+        <div class="col-md">
+          <div class="row">
+            <h3 class="col-12">
+              <a
+                href="https://github.com/m1cha3lnava/gt-freezER"
+                class="text-light"
+                >Project 1</a
+              >
+            </h3>
+            <a href="https://m1cha3lnava.github.io/gt-freezER/">
+              <img
+                class="m-3"
+                src="./assets/screenshot-project-1.png"
+                alt="Project 1"
+                style="max-width: 320px;"
+              />
+              <a href="https://github.com/m1cha3lnava/gt-freezER"></a>
+            </a>
           </div>
-          </div> 
-  
-
+        </div>
+        <div class="col-md">
+          <div class="row">
+            <h3 class="col-12">
+              <a
+                href="https://m1cha3lnava.github.io/css-bootstraphmwk/"
+                class="text-light"
+                >Password Generator</a
+              >
+            </h3>
+            <a href="https://m1cha3lnava.github.io/css-bootstraphmwk/">
+              <img
+                class="m-3"
+                src="./assets/screenshot-password.png"
+                alt="Password Generator"
+                style="max-width: 320px;"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="row">
+            <h3 class="col-12">
+              <a
+                href="https://m1cha3lnava.github.io/css-bootstraphmwk/"
+                class="text-light"
+                >Semantic HTML</a
+              >
+            </h3>
+            <a href="https://m1cha3lnava.github.io/gt-semantic-html-hmwk/">
+              <img
+                class="m-3"
+                src="./assets/screenshot-semantic.png"
+                alt="Webpage with semantic elements"
+                style="max-width: 320px;"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
     </main>
-
     <footer>
       <script
         src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
