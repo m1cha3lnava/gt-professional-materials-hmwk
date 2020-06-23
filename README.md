@@ -1,11 +1,10 @@
 # css-Professional Materials
-https://m1cha3lnava.github.io/css-bootstraphmwk/
-
+https://m1cha3lnava.github.io/gt-professional-materials-hmwk
 This repository holds the code for my website to give information about myself, showcase projects, and contact me.
 
 ## Installation
 
-No installation required. Open  using a web browser.
+No installation required. Open using a web browser.
 
 ## Usage
 
@@ -13,7 +12,7 @@ Feel free to check out my projects and contact me.
 
 screenshots
  ![About Me](./assets/screenshothome.png)
- ![Portfolio](./assets\screenshot-portfolio.png)
+ ![Portfolio](./assets/screenshot-portfolio.png)
  ![Contact Me](./assets/screenshot-contactme.png)
 
 ## Credits

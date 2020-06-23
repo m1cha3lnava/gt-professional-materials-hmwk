@@ -1,6 +1,5 @@
 mark {
   background-color: ghostwhite;
-
 }
 
 body {
@@ -36,22 +35,21 @@ h3 {
 img {
   align-content: flex-start;
 }
-.jumbotron{
+.jumbotron {
   background-color: #ffffff70;
 }
-.navbar{
+.navbar {
   background-color: #ffffff70;
 }
 .container {
   background-color: white;
 }
 .portfolioLink {
-  
 }
 #profileText {
   background-color: whitesmoke;
-  padding: 20px
+  padding: 20px;
 }
 #profileSection {
-  background-color:darkgrey;
+  background-color: darkgrey;
 }
